@@ -7,9 +7,6 @@ module.exports = class extends Language {
 		super(...args);
 
 		this.language = {
-			NAUGHTY_WORD_DELETED: `Your message has been deleted, because you used a naughty word.`,
-			NAUGHTY_WORD_DM_TITLE: 'Your message was deleted.',
-			NAUGHTY_WORD_BAD_WORDS: () => `The naughty word or words you used were:`,
 			WARNINGS: 'Warnings',
 			AFK_HELP_DESCRIPTION: 'Enable/Disable or set a AFK message for yourself.',
 			AFK_HELP_EXTENDED: prefix =>
@@ -47,24 +44,6 @@ module.exports = class extends Language {
 						// `Verification Main Channel: ${settings.channels.verifyMainChannelID}`,
 						`Send AFK Responses: ${settings.settings.allowAfkResponses}`,
 						`Feedback Feature: **Idea:** ${settings.settings.feedback.idea.status} | **Issues**: ${settings.settings.feedback.bug.status}`
-
-						// general,
-						// hibye,
-						// moderation,
-						// roleSets,
-						// roleMessages,
-						// serverLogs,
-						// vip,
-						// tags,
-						// stories,
-						// events,
-						// verify,
-						// xp,
-						// notifications,
-						// timezone,
-						// promptTime,
-						// _xpLevels,
-						// _reactionRoles,
 					].join('\n')
 			},
 			BAD_EMBED: 'This was not a **valid embed object**. Best is to use the embed builder <https://embedbuilder.nadekobot.me/>!',

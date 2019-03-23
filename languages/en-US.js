@@ -1536,6 +1536,7 @@ module.exports = class extends Language {
 					FIRST_MISSING: 'This server has not set up a proper first welcome message. Please contact a moderator/admin of the server and have them enable it.',
 					ALREADY_STARTED: 'Sorry, you already have an open channel for your welcome system. Please use that channel to finish your process.',
 					USE_THIS: 'Please use this setup channel that was already made for you.',
+					INCORRECT_USAGE: 'You did not use the verify command properly. Please follow the instructions or contact a moderator/admin of the server for help.',
 					NOT_VERIFY_CHANNEL: 'Sorry the channel was is not a welcome channel. Please contact a moderator/admin of the server.',
 					NO_AUTOROLE: 'There is no auto assign role setup for the server, please contact a moderator/admin.'
 				}
